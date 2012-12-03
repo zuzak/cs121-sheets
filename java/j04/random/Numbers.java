@@ -4,8 +4,8 @@ public class Numbers {
 	static int currNumber;
 	static final int maxNumber = 10;
 	
-	public static void int genNumber(){
-		currNumber = seed.nextInt(maxNumber);
+	public static void genNumber(){
+		currNumber = seed.nextInt(maxNumber)+1;
 	}
 	
 	public static int returnNumber(){
